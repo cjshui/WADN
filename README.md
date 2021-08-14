@@ -12,8 +12,9 @@ A pytorch implementation of [Aggregating From Multiple Target-Shifted Sources](h
  
 ## Models
 
-- 'Test.py': Active Learning model 
-- 'query_startegies/wasserstien_adversarial.py': Model for WAAL
+- 'was_main_labeled.py ': Evaluation with limited target label prediction
+- 'was_main_uda.py': Code for Unsupervised DA
+- 'solver.py' Solver for estimating the optimal weights and label distribution ratio
 ## How to cite
 
 ```xml
